@@ -2,9 +2,9 @@ import { Component, Input } from '@angular/core';
 import { AnimationEvent } from "@angular/animations";
 import { trigger, keyframes, animate, transition } from "@angular/animations";
 import * as kf from './keyframes';
+import { Book } from './book';
+import data from './books.json';
 import { Subject } from 'rxjs';
-
-
 
 @Component({
   selector: 'app-menu',
@@ -19,6 +19,7 @@ import { Subject } from 'rxjs';
 })
 
 export class MenuComponent{
+  public books: Book[] = data;
   public index = 0;
   @Input()
   parentSubject!: Subject<any>;
@@ -33,18 +34,19 @@ export class MenuComponent{
   }
 
   startAnimation(state: string) {
-  if (!this.animationState) {
-    this.animationState = state;
-  }
+    if (!this.animationState) {
+      this.animationState = state;
+    }
   }
 
-  resetAnimationState(state: string) {
-    this.animationState = '';
-    this.index++;
+  resetAnimationState(state: any) {
+    //Si c'est un click, on active le processus
+    if(this.animationState){
+      this.index++;
+      this.animationState = '';
+    }
   }
   ngOnDestroy() {
     this.parentSubject.unsubscribe();
   }
-
-
 }

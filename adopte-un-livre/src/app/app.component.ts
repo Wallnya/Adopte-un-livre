@@ -12,8 +12,6 @@ export class AppComponent {
   title = 'adopte-un-livre';
   faTimes = faTimes;
   faHeart = faHeart;
-
-
   parentSubject:Subject<string> = new Subject();
 
   constructor() {}

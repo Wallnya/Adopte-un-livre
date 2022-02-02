@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\adopte-un-livre",
-    "\\adopte-un-livre\\src"
+    "\\adopte-un-livre\\src",
+    "\\adopte-un-livre\\src\\app",
+    "\\adopte-un-livre\\src\\app\\menu"
   ],
-  "SelectedNode": "\\adopte-un-livre\\.angular",
+  "SelectedNode": "\\adopte-un-livre\\tsconfig.json",
   "PreviewInSolutionExplorer": false
 }

@@ -1,21 +1,22 @@
 <div class="tbg">
   <div class="theader">
     <div class="tlogo">
-      <img src="/assets/logo.png" alt="Tinder Logo" title="Tinder Logo" />
+      <img src="/assets/logo.png" alt="LD Logo" title="LD Logo" />
     </div>
   </div>
-  <router-outlet></router-outlet>
+  <app-menu [parentSubject]="parentSubject"></app-menu>
   <div class="tbgwrap">
     <div class="tcontrols">
       <div (click)='cardAnimation("swipeleft")' class="tno">
-        <i>
+        <i aria-hidden="true">
           <fa-icon [icon]="faTimes"></fa-icon>
         </i>
       </div>
       <div (click)='cardAnimation("swiperight")' class="tyes">
-          <i><fa-icon [icon]="faHeart"></fa-icon></i>
+          <i aria-hidden="true">
+            <fa-icon [icon]="faHeart"></fa-icon>
+          </i>
       </div>
     </div>
   </div>
 </div>
-
