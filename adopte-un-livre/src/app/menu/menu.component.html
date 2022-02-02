@@ -1,0 +1,13 @@
+<div class="tphoto"
+  [@cardAnimator]="animationState"
+  (@cardAnimator.done)="resetAnimationState($event)"
+  (swipeleft)='startAnimation("swipeleft")'
+  (swiperight)='startAnimation("swiperight")'
+>
+  <img  title="tphoto" alt="Tinder Photo" />
+  <div class="tname">Les prédateurs <span class="tauthor"><br />de Maxime Chattam</span></div>
+  <div class="tinfo">
+    <i class="fa fa-book" aria-hidden="true"> </i>
+    <i class="fa fa-users" aria-hidden="true"> 0</i>
+  </div>
+</div>
