@@ -45,6 +45,11 @@ export class MenuComponent{
       this.index++;
       this.animationState = '';
     }
+    //Si on arrive à la fin, on boucle
+    else if(this.index === this.books.length){
+      this.index=0;
+      this.animationState = '';
+    }
   }
   ngOnDestroy() {
     this.parentSubject.unsubscribe();
