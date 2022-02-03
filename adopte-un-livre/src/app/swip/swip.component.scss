@@ -18,17 +18,20 @@
     font-size: 20px;
     font-family: 'Helvetica', sans-serif;
     float: left;
+    position: absolute;
+    top:300px;
 }
 .tname .tauthor {
   font-weight: 200;
 }
-.tinfo { font-family: 'Helvetica', sans-serif; }
-.tinfo .fa-users, .tinfo .fa-book {
-    color: #c0c0c0;
-    float: right;
-    position: relative;
-    font-size: 24px;
-    padding: 12px;
+
+.tgenre {
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+    float: left;
+    position: absolute;
+    top:350px;
 }
 
 .tbg {
@@ -112,4 +115,8 @@
   color: #5de19c;
   font-size: 60px;
   padding: 35px 30px;
+}
+
+.tphoto img{
+  position: absolute;
 }

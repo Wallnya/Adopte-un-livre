@@ -32,7 +32,7 @@
     position: relative;
     display: inline-block;
     top: 50px;
-    left: 55px;
+    left: 95px;
 }
 .tno i {
     color: #ff695b;
@@ -48,11 +48,16 @@
     -moz-border-radius: 50%;
     position: relative;
     display: inline-block;
-    top: 45px;
-    left: 70px;
+    top: 50px;
+    left: 105px;
 }
 .tyes i {
     color: #5de19c;
     font-size: 60px;
     padding: 35px 30px;
+}
+
+.mat-fab.mat-success {
+  color: #f0fff3;
+  background-color: #11A187;
 }

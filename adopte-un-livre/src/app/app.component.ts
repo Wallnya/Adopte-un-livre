@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { Subject } from 'rxjs';
-import { faTimes, faHeart } from '@fortawesome/free-solid-svg-icons';
-
 
 @Component({
   selector: 'app-root',
@@ -10,8 +8,6 @@ import { faTimes, faHeart } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   title = 'adopte-un-livre';
-  faTimes = faTimes;
-  faHeart = faHeart;
   parentSubject:Subject<string> = new Subject();
 
   constructor() {}

@@ -8,8 +8,8 @@ import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss'],
+  templateUrl: './swip.component.html',
+  styleUrls: ['./swip.component.scss'],
   animations: [
     trigger('cardAnimator', [
       transition('* => swiperight', animate(750, keyframes(kf.swiperight))),
@@ -18,9 +18,9 @@ import { Subject } from 'rxjs';
   ]
 })
 
-export class MenuComponent{
+export class SwipComponent{
   public books: Book[] = data;
-  public index = 0;
+  public index = 5;
   @Input()
   parentSubject!: Subject<any>;
 

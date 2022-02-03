@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "picture": "https://images-eu.ssl-images-amazon.com/images/I/41NCdEY6m0L._SY291_BO1,204,203,200_QL40_ML2_.jpg",
+    "author": "Maxime Chattam",
+    "name": "Le signal",
+    "genre": "Thriller, Suspense, Thriller psychologique, Fiction domestique, Fiction paranormale"
+  },
+  {
+    "id": 2,
+    "picture": "/assets/logo.png",
+    "author": "Lili Reinhart",
+    "name": "Swimming Lessons",
+    "genre": "Poésie"
+  },
+  {
+    "id": 3,
+    "picture": "/assets/logo.png",
+    "author": "Margaret Atwood",
+    "name": "La Servante écarlate",
+    "genre": "Roman, Science-Fiction (dyspotie)"
+  },
+  {
+    "id": 4,
+    "picture": "/assets/logo.png",
+    "author": "Michael Marshall Smith",
+    "name": "Les Hommes de paille",
+    "genre": "Thriller, Mystère, Suspense, Policier, Procédure policière"
+  },
+  {
+    "id": 5,
+    "picture": "/assets/logo.png",
+    "author": "Horacio Quiroga",
+    "name": "Contes d'amour, de folie et de mort",
+    "genre": "Conte"
+  },
+  {
+    "id": 6,
+    "picture": "/assets/BirthdayGirl.png",
+    "author": "Haruki Murakami",
+    "name": "Birthday Girl",
+    "genre": "Nouvelle"
+  }
+ ]
