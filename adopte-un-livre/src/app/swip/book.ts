@@ -3,5 +3,8 @@ export interface Book {
   picture: string;
   author: string;
   name: string;
-  genre: string;
+  genre1: string;
+  genre2?: string;
+  genre3?: string;
+
 }

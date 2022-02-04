@@ -1,37 +1,48 @@
 .tphoto {
-    width: 350px;
-    height: 400px;
-    overflow: hidden;
-    margin: 0 auto;
-    position: relative;
-    top: 15px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    border: 1px solid #c0c0c0;
-    padding-bottom: 60px;
-    background-color: #fff;
-    box-shadow: 2px 2px 2px #c0c0c0;
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  border: 1px solid #c0c0c0;
+  padding-bottom: 60px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #c0c0c0;
 }
 
 .tname {
-    padding: 15px;
-    font-size: 20px;
-    font-family: 'Helvetica', sans-serif;
-    float: left;
-    position: absolute;
-    top:300px;
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Helvetica', sans-serif;
+  float: left;
+  position: absolute;
+  top:300px;
 }
 .tname .tauthor {
   font-weight: 200;
 }
 
 .tgenre {
-    padding: 15px;
-    font-size: 20px;
-    font-family: 'Helvetica', sans-serif;
-    float: left;
-    position: absolute;
-    top:350px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Helvetica', sans-serif;
+  float: left;
+  position: relative;
+  border: 1px solid white;
+  border-radius: 30px;
+  -moz-border-radius: 10px;
+  background-color: rgba(94, 92, 98, .5);
+  color: white;
+}
+.box {
+  padding:10px;
+  top:370px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
 }
 
 .tbg {

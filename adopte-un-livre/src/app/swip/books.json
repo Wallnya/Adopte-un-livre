@@ -1,44 +1,50 @@
 [
   {
     "id": 1,
-    "picture": "https://images-eu.ssl-images-amazon.com/images/I/41NCdEY6m0L._SY291_BO1,204,203,200_QL40_ML2_.jpg",
+    "picture": "/assets/LeSignal.jpg",
     "author": "Maxime Chattam",
     "name": "Le signal",
-    "genre": "Thriller, Suspense, Thriller psychologique, Fiction domestique, Fiction paranormale"
+    "genre1": "Thriller",
+    "genre2": "Suspense",
+    "genre3": "Fiction"
   },
   {
     "id": 2,
-    "picture": "/assets/logo.png",
+    "picture": "/assets/SwimmingLessons.jpg",
     "author": "Lili Reinhart",
     "name": "Swimming Lessons",
-    "genre": "Poésie"
+    "genre1": "Poésie"
   },
   {
     "id": 3,
-    "picture": "/assets/logo.png",
+    "picture": "/assets/ServanteEcarlate.jpg",
     "author": "Margaret Atwood",
     "name": "La Servante écarlate",
-    "genre": "Roman, Science-Fiction (dyspotie)"
+    "genre1": "Roman",
+    "genre2": "Science-Fiction"
   },
   {
     "id": 4,
-    "picture": "/assets/logo.png",
+    "picture": "/assets/HommesDePaille.jpg",
     "author": "Michael Marshall Smith",
     "name": "Les Hommes de paille",
-    "genre": "Thriller, Mystère, Suspense, Policier, Procédure policière"
+    "genre1": "Thriller",
+    "genre2": "Mystère",
+    "genre3": "Suspense"
   },
   {
     "id": 5,
-    "picture": "/assets/logo.png",
+    "picture": "/assets/Contes.jpg",
     "author": "Horacio Quiroga",
     "name": "Contes d'amour, de folie et de mort",
-    "genre": "Conte"
+    "genre1": "Conte"
   },
   {
     "id": 6,
     "picture": "/assets/BirthdayGirl.png",
     "author": "Haruki Murakami",
     "name": "Birthday Girl",
-    "genre": "Nouvelle"
+    "genre1": "Nouvelle",
+    "genre2": "Fiction"
   }
  ]
