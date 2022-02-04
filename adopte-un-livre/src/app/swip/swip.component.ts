@@ -20,7 +20,7 @@ import { Subject } from 'rxjs';
 
 export class SwipComponent{
   public books: Book[] = data;
-  public index = 4;
+  public index = 0;
   @Input()
   parentSubject!: Subject<any>;
 

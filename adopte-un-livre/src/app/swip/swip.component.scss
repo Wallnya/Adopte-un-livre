@@ -1,3 +1,7 @@
+* {
+  font-family: adopteunlivre;
+}
+
 .tphoto {
   width: 350px;
   height: 400px;
@@ -16,10 +20,10 @@
 .tname {
   padding: 15px;
   font-size: 20px;
-  font-family: 'Helvetica', sans-serif;
   float: left;
   position: absolute;
   top:300px;
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
 .tname .tauthor {
   font-weight: 200;
@@ -28,7 +32,6 @@
 .tgenre {
   padding: 10px;
   font-size: 20px;
-  font-family: 'Helvetica', sans-serif;
   float: left;
   position: relative;
   border: 1px solid white;
@@ -91,7 +94,6 @@
 }
 
 .tno {
-  background-color: #fff;
   height: 120px;
   width: 120px;
   border-radius: 50%;
@@ -110,7 +112,6 @@
 }
 
 .tyes {
-  background-color: #fff;
   height: 120px;
   width: 120px;
   border-radius: 50%;

@@ -13,13 +13,13 @@
     "picture": "/assets/SwimmingLessons.jpg",
     "author": "Lili Reinhart",
     "name": "Swimming Lessons",
-    "genre1": "Poésie"
+    "genre1": "Poesie"
   },
   {
     "id": 3,
     "picture": "/assets/ServanteEcarlate.jpg",
     "author": "Margaret Atwood",
-    "name": "La Servante écarlate",
+    "name": "La Servante ecarlate",
     "genre1": "Roman",
     "genre2": "Science-Fiction"
   },
@@ -29,7 +29,7 @@
     "author": "Michael Marshall Smith",
     "name": "Les Hommes de paille",
     "genre1": "Thriller",
-    "genre2": "Mystère",
+    "genre2": "Mystere",
     "genre3": "Suspense"
   },
   {
