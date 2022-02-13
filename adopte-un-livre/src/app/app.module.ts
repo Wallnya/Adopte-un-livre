@@ -9,11 +9,15 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SwipComponent } from './swip/swip.component';
+import { HomeComponent } from './home/home.component';
+import { MenuSwipComponent } from './menu-swip/menu-swip.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SwipComponent
+    SwipComponent,
+    HomeComponent,
+    MenuSwipComponent
   ],
   imports: [
     BrowserModule,

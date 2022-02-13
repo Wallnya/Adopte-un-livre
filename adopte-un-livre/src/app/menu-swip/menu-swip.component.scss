@@ -1,0 +1,50 @@
+.tbg {
+    height: 720px;
+    width: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid #c0c0c0;
+    background-image: linear-gradient(to top right, #AEC5EB, #F9DEC9);
+}
+.tbgwrap {
+    padding: 10px;
+}
+.theader {
+    height: 65px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.tlogo {
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+.tlogo img { width: 50px; }
+
+.tno {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    left: 95px;
+}
+
+.tyes {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    left: 105px;
+}
+
+.mat-fab.mat-success {
+  color: #f0fff3;
+  background-color: #11A187;
+}

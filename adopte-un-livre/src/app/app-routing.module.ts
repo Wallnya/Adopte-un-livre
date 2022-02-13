@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SwipComponent } from './swip/swip.component';
+import { MenuSwipComponent } from './menu-swip/menu-swip.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-   { path: '', component: SwipComponent }
+   { path: 'swip', component: MenuSwipComponent },
+   { path: '', component: HomeComponent }
 ];
 
 @NgModule({

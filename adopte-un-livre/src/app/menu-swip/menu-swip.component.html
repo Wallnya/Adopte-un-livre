@@ -1,0 +1,22 @@
+<div class="tbg">
+  <div class="theader">
+    <div class="tlogo">
+      <img src="/assets/logo_app_wb.png" alt="logo AUL" title="logo AUL" />
+    </div>
+  </div>
+  <app-menu [parentSubject]="parentSubject"></app-menu>
+  <div class="tbgwrap">
+    <div class="tcontrols">
+      <div (click)='cardAnimation("swipeleft")' class="tno">
+        <button mat-fab color="warn" aria-label="Not hot">
+          <mat-icon>clear</mat-icon>
+        </button>
+      </div>
+      <div (click)='cardAnimation("swiperight")' class="tyes">
+        <button mat-fab color="success" aria-label="Hot">
+          <mat-icon>favorite</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
