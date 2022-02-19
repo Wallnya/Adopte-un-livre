@@ -31,7 +31,6 @@
     -moz-border-radius: 50%;
     position: relative;
     display: inline-block;
-    top: 50px;
     left: 50px;
 }
 
@@ -55,4 +54,25 @@
   -moz-border-radius: 10px;
   background-color: rgba(94, 92, 98, .5);
   color: white;
+}
+
+.tyes {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    left: 150px;
+}
+
+button {
+  background-color: rgba(216, 165, 47, 0.96);
+  font-size: 16px;
+  color: white;
+}
+
+mat-icon {
+  font-family: 'Material Icons' !important;
 }
