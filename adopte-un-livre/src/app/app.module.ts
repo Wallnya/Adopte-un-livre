@@ -6,6 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatListModule} from '@angular/material/list';
+import { FormsModule }   from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { MenuSwipComponent } from './menu-swip/menu-swip.component';
 import { HeaderComponent } from './header/header.component';
 import { ParametersComponent } from './parameters/parameters.component';
+import { AddBookComponent } from './add-book/add-book.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { ParametersComponent } from './parameters/parameters.component';
     HomeComponent,
     MenuSwipComponent,
     HeaderComponent,
-    ParametersComponent
+    ParametersComponent,
+    AddBookComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +35,7 @@ import { ParametersComponent } from './parameters/parameters.component';
     MatIconModule,
     MatButtonToggleModule,
     MatListModule,
+    FormsModule,
     FontAwesomeModule
   ],
   providers: [],
