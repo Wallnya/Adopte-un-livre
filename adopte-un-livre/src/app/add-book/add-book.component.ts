@@ -17,8 +17,8 @@ export class AddBookComponent implements OnInit{
   this.genre1 =  ['Conte', 'Poésie', 'Roman'];
   var length = data.length;
   //Create a new user object
-   this.books[0] = new Book({
-       id:length, picture:"",author:"",name:"",genre1:""});
+/*   this.books[0] = new Book({
+       id:length, picture:"",author:"",name:"",genre1:""});*/
     }
 
 }
