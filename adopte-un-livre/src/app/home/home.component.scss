@@ -13,18 +13,6 @@
 .tbgwrap {
     padding: 10px;
 }
-.theader {
-    height: 65px;
-    border-bottom: 1px solid #c0c0c0;
-}
-
-.tlogo {
-    width: 100px;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-}
-.tlogo img { width: 50px; }
 
 .tboxbutton {
     border-radius: 50%;
@@ -75,4 +63,9 @@ button {
 
 mat-icon {
   font-family: 'Material Icons' !important;
+  font-size: 30px !important;
+}
+
+.tlogo mat-icon{
+  margin:30px;
 }

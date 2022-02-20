@@ -1,0 +1,32 @@
+* {
+  font-family: adopteunlivre;
+}
+
+.theader {
+    height: 65px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.tlogo {
+    //margin: 0 auto;
+    text-align: center;
+    color: grey;
+}
+.tlogo img {
+   width: 50px;
+   margin-top: 5px;
+   //margin: 0px 20px;
+}
+
+mat-icon {
+  font-family: 'Material Icons' !important;
+  font-size: 40px !important;
+}
+
+.tlogo mat-icon{
+  margin:10px 35px 20px 35px;
+}
+
+.active {
+  color: rgb(255, 81, 118);;
+}
