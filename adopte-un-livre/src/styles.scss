@@ -1,1 +1,7 @@
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+@media (min-width: 250px){
+  body {
+    margin : 0px;
+  }
+}

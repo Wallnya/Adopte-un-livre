@@ -1,70 +1,72 @@
-* {
-  font-family: adopteunlivre;
-}
+@media screen and (min-width: 250px){
+  * {
+    font-family: adopteunlivre;
+  }
 
-.tbg {
+  .tbg {
+      width: 400px;
+      background-color: #fff;
+      margin: 0 auto;
+      background-image: linear-gradient(to top right, #AEC5EB, #F9DEC9);
+  }
+  .tbgwrap {
+      padding: 10px;
+  }
+
+  .tboxbutton {
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      position: relative;
+      display: inline-block;
+      left: 50px;
+  }
+
+  .tphoto{
+    text-align: center;
+    width: 100px;
+  }
+
+  .tphoto img{
     width: 400px;
-    background-color: #fff;
-    margin: 0 auto;
-    background-image: linear-gradient(to top right, #AEC5EB, #F9DEC9);
-}
-.tbgwrap {
+    height: 400px;
+  }
+
+  .tbutton {
     padding: 10px;
-}
-
-.tboxbutton {
-    border-radius: 50%;
-    -moz-border-radius: 50%;
+    font-size: 25px;
+    float: left;
     position: relative;
-    display: inline-block;
-    left: 50px;
-}
+    border: 1px solid white;
+    border-radius: 30px;
+    -moz-border-radius: 10px;
+    background-color: rgba(94, 92, 98, .5);
+    color: white;
+  }
 
-.tphoto{
-  text-align: center;
-  width: 100px;
-}
+  .tyes {
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      position: relative;
+      display: inline-block;
+      top: 50px;
+      left: 150px;
+  }
 
-.tphoto img{
-  width: 400px;
-  height: 400px;
-}
+  button {
+    background-color: rgba(216, 165, 47, 0.96);
+    font-size: 16px;
+    color: white;
+  }
 
-.tbutton {
-  padding: 10px;
-  font-size: 25px;
-  float: left;
-  position: relative;
-  border: 1px solid white;
-  border-radius: 30px;
-  -moz-border-radius: 10px;
-  background-color: rgba(94, 92, 98, .5);
-  color: white;
-}
+  mat-icon {
+    font-family: 'Material Icons' !important;
+    font-size: 30px !important;
+    margin-bottom: 20px;
+  }
 
-.tyes {
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    position: relative;
-    display: inline-block;
-    top: 50px;
-    left: 150px;
-}
-
-button {
-  background-color: rgba(216, 165, 47, 0.96);
-  font-size: 16px;
-  color: white;
-}
-
-mat-icon {
-  font-family: 'Material Icons' !important;
-  font-size: 30px !important;
-  margin-bottom: 20px;
-}
-
-.tlogo mat-icon{
-  margin:30px;
+  .tlogo mat-icon{
+    margin:30px;
+  }
 }
