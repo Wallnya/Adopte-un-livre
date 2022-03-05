@@ -59,8 +59,8 @@ And many others
 - [x] Login page
     - [ ] Database for login page
 - [ ] Multi-language Support
-    - [x] English
-    - [ ] French
+    - [ ] English
+    - [x] French
 
 <!-- CONTACT -->
 ## Contact
