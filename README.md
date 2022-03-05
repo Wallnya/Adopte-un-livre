@@ -2,9 +2,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="adopte-un-livre/src/assets/AdopteUnLivre.png" alt="Logo" width="150" height="150">
+    <img src="adopte-un-livre/src/logo_app.png" alt="Logo" width="150" height="150">
   </a>
-
   <h3 align="center">Adopte un livre</h3>
 
   <p align="center">
