@@ -1,55 +1,11 @@
-<div class="row custom-row">
-  <div class= "col-sm-5 custom-container jumbotron">
-
-    <form
-      class="form-horizontal"
-      #signupForm = "ngForm">
-      <fieldset>
-        <legend>Add a book</legend>
-            <div class="form-group">
-              <label for="picture">picture</label>
-              <input type="text"
-                [(ngModel)] = "books[0].picture"
-                id="picture"
-                placeholder="picture">
-            </div>
-
-            <div class="form-group">
-              <label for="author">author</label>
-              <input type="author"
-                [(ngModel)] = "books[0].author"
-                id="author"
-                placeholder="author">
-            </div>
-
-            <div class="form-group">
-              <label for="name" >name</label>
-              <input type="name"
-                [(ngModel)] = "books[0].name"
-                id="name"
-                placeholder="name">
-            </div>
-
-            <div class="form-group">
-              <label for="select">genre1</label>
-                <select id="select"
-                [(ngModel)] = "books[0].genre1">
-                  <option *ngFor = "let g of genre1"
-                    [value] = "g"> {{g}}
-                  </option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <button type="reset" class="btn btn-default">Cancel</button>
-                <button
-                   type="submit"
-                   class="btn btn-success"
-                   [disabled]="!signupForm.form.valid">
-                     Submit
-                </button>
-            </div>
-        </fieldset>
+<div class="container">
+    <form>
+        <p>Add a book</p>
+        <input type="text" placeholder="Author"><br>
+        <input type="text" placeholder="Name of the book"><br>
+        <input type="text" placeholder="Genre 1"><br>
+        <input type="text" placeholder="Genre 2"><br>
+        <input type="text" placeholder="Genre 3"><br>
+        <input type="button" value="Submit"><br>
     </form>
-  </div>
 </div>
