@@ -1,9 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="adopte-un-livre/src/logo_app.png" alt="Logo" width="150" height="150">
-  </a>
   <h3 align="center">Adopte un livre</h3>
 
   <p align="center">
@@ -45,7 +43,6 @@ This application proposes in particular:
 
 * [Node.js](https://nodejs.org/)
 * [Angular](https://angular.io/)
-* [Bootstrap](https://getbootstrap.com)
 
 And many others
 
@@ -55,7 +52,8 @@ And many others
 - [x] Book Swiping
 - [x] Settings page
 - [x] Page for adding books
-    - [ ] Database for adding books
+    - [x] Database for adding books
+    - [x] Small verification of the data entered
 - [x] Login page
     - [ ] Database for login page
 - [ ] Multi-language Support

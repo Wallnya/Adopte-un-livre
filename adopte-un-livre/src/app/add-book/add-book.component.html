@@ -1,11 +1,11 @@
 <div class="container">
-    <form>
+    <form [formGroup]="addBookForm">
         <p>Un nouveau copain</p>
-        <input [(ngModel)]="book.author" type="text" placeholder="Auteur" name="autheur"><br>
-        <input [(ngModel)]="book.name" type="text" placeholder="Nom du livre" name="name"><br>
-        <input [(ngModel)]="book.genre1" type="text" placeholder="Genre 1" name="genre1"><br>
-        <input [(ngModel)]="book.genre2" type="text" placeholder="Genre 2" name="genre2"><br>
-        <input [(ngModel)]="book.genre3" type="text" placeholder="Genre 3" name="genre3"><br>
-        <button (click)=" addBook() ">Add</button>
+        <input [(ngModel)]="book.author" formControlName="author" type="text" placeholder="Auteur" name="author"><br>
+        <input [(ngModel)]="book.name" formControlName="name" type="text" placeholder="Nom du livre" name="name"><br>
+        <input [(ngModel)]="book.genre1" formControlName="genre1" type="text" placeholder="Genre 1" name="genre1"><br>
+        <input [(ngModel)]="book.genre2" formControlName="genre2" type="text" placeholder="Genre 2" name="genre2"><br>
+        <input [(ngModel)]="book.genre3" formControlName="genre3" type="text" placeholder="Genre 3" name="genre3"><br>
+        <button (click)=" addBook() " [disabled]="addBookForm.invalid">Add</button>
     </form>
 </div>
