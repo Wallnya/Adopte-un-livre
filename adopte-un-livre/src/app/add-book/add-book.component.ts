@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../swip/book';
-import data from '../swip/books.json';
+import { BookService } from '../book.service';
 
 @Component({
   selector: 'app-add-book',
@@ -8,17 +8,17 @@ import data from '../swip/books.json';
   styleUrls: ['./add-book.component.scss']
 })
 export class AddBookComponent implements OnInit{
-   genre1: string[] =  [];
 
-//Property for the user
-  public books: Book[] = data;
+  constructor(private monService: BookService){}
+  book1!: Book[];
+  book = new Book();
 
-  ngOnInit() {
-  this.genre1 =  ['Conte', 'Poésie', 'Roman'];
-  var length = data.length;
-  //Create a new user object
-/*   this.books[0] = new Book({
-       id:length, picture:"",author:"",name:"",genre1:""});*/
-    }
+  ngOnInit() {}
 
+  addBook() {
+    this.monService.addBook(this.book)
+      .subscribe(data => {
+        console.log(data)
+      });
+  }
 }

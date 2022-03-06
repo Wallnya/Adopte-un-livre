@@ -1,0 +1,59 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "picture": "/assets/LeSignal.jpg",
+      "author": "Maxime Chattam",
+      "name": "Le signal",
+      "genre1": "Thriller",
+      "genre2": "Suspense",
+      "genre3": "Fiction"
+    },
+    {
+      "id": 2,
+      "picture": "/assets/SwimmingLessons.jpg",
+      "author": "Lili Reinhart",
+      "name": "Swimming Lessons",
+      "genre1": "Poesie"
+    },
+    {
+      "id": 3,
+      "picture": "/assets/ServanteEcarlate.jpg",
+      "author": "Margaret Atwood",
+      "name": "La Servante ecarlate",
+      "genre1": "Roman",
+      "genre2": "Science-Fiction"
+    },
+    {
+      "id": 4,
+      "picture": "/assets/HommesDePaille.jpg",
+      "author": "Michael Marshall Smith",
+      "name": "Les Hommes de paille",
+      "genre1": "Thriller",
+      "genre2": "Mystere",
+      "genre3": "Suspense"
+    },
+    {
+      "id": 5,
+      "picture": "/assets/Contes.jpg",
+      "author": "Horacio Quiroga",
+      "name": "Contes d'amour, de folie et de mort",
+      "genre1": "Conte"
+    },
+    {
+      "id": 6,
+      "picture": "/assets/BirthdayGirl.png",
+      "author": "Haruki Murakami",
+      "name": "Birthday Girl",
+      "genre1": "Nouvelle",
+      "genre2": "Fiction"
+    },
+    {
+      "picture": "/assets/test.jpg",
+      "author": "",
+      "name": "",
+      "genre1": "",
+      "id": 7
+    }
+  ]
+}

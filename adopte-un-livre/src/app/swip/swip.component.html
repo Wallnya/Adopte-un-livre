@@ -1,14 +1,9 @@
-<div class="tphoto"
-  [@cardAnimator]="animationState"
-  (@cardAnimator.done)="resetAnimationState($event)"
-  (swipeleft)='startAnimation("swipeleft")'
-  (swiperight)='startAnimation("swiperight")'
->
-  <img [src]="books[index].picture" title="tphoto" alt="Books Photo" />
-  <div class="tname">{{books[index].name}} <span class="tauthor"><br />{{books[index].author}}</span></div>
-  <div class="box">
-      <div class="tgenre" *ngIf="books[index].genre1">{{books[index].genre1}}</div>
-      <div class="tgenre" *ngIf="books[index].genre2">{{books[index].genre2}}</div>
-      <div class="tgenre" *ngIf="books[index].genre3">{{books[index].genre3}}</div>
-  </div>
+<div class="tphoto" [@cardAnimator]="animationState" (@cardAnimator.done)="resetAnimationState($event)" (swipeleft)='startAnimation("swipeleft")' (swiperight)='startAnimation("swiperight")'>
+    <img *ngIf="books[index]" [src]="books[index].picture" title="tphoto" alt="Books Photo" />
+    <div *ngIf="books[index]" class="tname">{{books[index].name}} <span *ngIf="books[index]" class="tauthor"><br />{{books[index].author}}</span></div>
+    <div *ngIf="books[index]" class="box">
+        <div class="tgenre" *ngIf="books[index].genre1">{{books[index].genre1}}</div>
+        <div class="tgenre" *ngIf="books[index].genre2">{{books[index].genre2}}</div>
+        <div class="tgenre" *ngIf="books[index].genre3">{{books[index].genre3}}</div>
+    </div>
 </div>

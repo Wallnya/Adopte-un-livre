@@ -1,11 +1,11 @@
 <div class="container">
     <form>
         <p>Un nouveau copain</p>
-        <input type="text" placeholder="Auteur"><br>
-        <input type="text" placeholder="Nom du livre"><br>
-        <input type="text" placeholder="Genre 1"><br>
-        <input type="text" placeholder="Genre 2"><br>
-        <input type="text" placeholder="Genre 3"><br>
-        <input type="button" value="Envoyer"><br>
+        <input [(ngModel)]="book.author" type="text" placeholder="Auteur" name="autheur"><br>
+        <input [(ngModel)]="book.name" type="text" placeholder="Nom du livre" name="name"><br>
+        <input [(ngModel)]="book.genre1" type="text" placeholder="Genre 1" name="genre1"><br>
+        <input [(ngModel)]="book.genre2" type="text" placeholder="Genre 2" name="genre2"><br>
+        <input [(ngModel)]="book.genre3" type="text" placeholder="Genre 3" name="genre3"><br>
+        <button (click)=" addBook() ">Add</button>
     </form>
 </div>

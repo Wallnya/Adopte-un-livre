@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "browser": {
     "fs": false,
-     "path": false,
-     "os": false
- },
+    "path": false,
+    "os": false
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -30,6 +30,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@material/list": "^13.0.0",
+    "file-system": "^2.2.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

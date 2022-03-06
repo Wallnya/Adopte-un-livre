@@ -3,7 +3,7 @@ import { AnimationEvent } from "@angular/animations";
 import { trigger, keyframes, animate, transition } from "@angular/animations";
 import * as kf from './keyframes';
 import { Book } from './book';
-import data from './books.json';
+import data from '../../assets/books.json';
 import { Subject } from 'rxjs';
 
 @Component({
@@ -19,7 +19,7 @@ import { Subject } from 'rxjs';
 })
 
 export class SwipComponent{
-  public books: Book[] = data;
+  public books: Book[] = data['books'];
   public index = 0;
   @Input()
   parentSubject!: Subject<any>;
