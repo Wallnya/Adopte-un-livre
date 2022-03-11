@@ -6,6 +6,4 @@ import { Component} from '@angular/core';
   styleUrls: ['./parameters.component.scss']
 })
 export class ParametersComponent{
-  typesOfShoes: string[] = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
-
 }

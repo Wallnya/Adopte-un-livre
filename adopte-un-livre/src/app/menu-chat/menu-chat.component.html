@@ -1,0 +1,24 @@
+<div class="container-fluid h-50">
+    <div class="row justify-content-center h-100">
+        <div class="col-md-4 col-xl-3 chat" style="width: auto;">
+            <div class="card mb-sm-3 mb-md-0 contacts_card">
+                <div class="card-body contacts_body">
+                    <ul class="contacts">
+                        <li *ngFor="let book of books" class="active">
+                            <div class="d-flex bd-highlight" routerLink="{{book.id}}">
+                                <div class="img_cont">
+                                    <img *ngIf="book" [src]="book.picture" class="rounded-circle user_img">
+                                    <span class="online_icon"></span>
+                                </div>
+                                <div *ngIf="book" class="user_info">
+                                    <span>{{book.name}}</span>
+                                    <p>{{book.author}}</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

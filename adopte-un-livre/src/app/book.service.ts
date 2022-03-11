@@ -25,4 +25,9 @@ export class BookService {
     console.log(body);
     return this.http.post(this.baseURL + 'books', body,{'headers':headers})
   }
+
+  getBookById(bookId: number): Observable<any> {
+    console.log('getBook '+this.baseURL + 'books/'+bookId)
+    return this.http.get<Book[]>(this.baseURL + 'books/'+bookId)
+  }
 }

@@ -1,59 +1,65 @@
 {
-  "books": [
-    {
-      "id": 1,
-      "picture": "/assets/LeSignal.jpg",
-      "author": "Maxime Chattam",
-      "name": "Le signal",
-      "genre1": "Thriller",
-      "genre2": "Suspense",
-      "genre3": "Fiction"
-    },
-    {
-      "id": 2,
-      "picture": "/assets/SwimmingLessons.jpg",
-      "author": "Lili Reinhart",
-      "name": "Swimming Lessons",
-      "genre1": "Poesie"
-    },
-    {
-      "id": 3,
-      "picture": "/assets/ServanteEcarlate.jpg",
-      "author": "Margaret Atwood",
-      "name": "La Servante ecarlate",
-      "genre1": "Roman",
-      "genre2": "Science-Fiction"
-    },
-    {
-      "id": 4,
-      "picture": "/assets/HommesDePaille.jpg",
-      "author": "Michael Marshall Smith",
-      "name": "Les Hommes de paille",
-      "genre1": "Thriller",
-      "genre2": "Mystere",
-      "genre3": "Suspense"
-    },
-    {
-      "id": 5,
-      "picture": "/assets/Contes.jpg",
-      "author": "Horacio Quiroga",
-      "name": "Contes d'amour, de folie et de mort",
-      "genre1": "Conte"
-    },
-    {
-      "id": 6,
-      "picture": "/assets/BirthdayGirl.png",
-      "author": "Haruki Murakami",
-      "name": "Birthday Girl",
-      "genre1": "Nouvelle",
-      "genre2": "Fiction"
-    },
-    {
-      "picture": "/assets/test.jpg",
-      "author": "",
-      "name": "",
-      "genre1": "",
-      "id": 7
-    }
-  ]
+    "books": [{
+            "id": 1,
+            "picture": "/assets/LeSignal.jpg",
+            "author": "Maxime Chattam",
+            "name": "Le signal",
+            "genre1": "Thriller",
+            "genre2": "Suspense",
+            "genre3": "Fiction",
+            "summary": "Olivia, star de la television New-Yorkaise, et Tom, son mari ecrivain, decident de changer de vie. Ils tombent sous le charme d'une ancienne ferme entierement renovee dans la petite ville de Mahingan Falls."
+        },
+        {
+            "id": 2,
+            "picture": "/assets/SwimmingLessons.jpg",
+            "author": "Lili Reinhart",
+            "name": "Swimming Lessons",
+            "genre1": "Poesie",
+            "summary": "I seem to be your new favorite novel. One that keeps you up at night,turning my pages."
+        },
+        {
+            "id": 3,
+            "picture": "/assets/ServanteEcarlate.jpg",
+            "author": "Margaret Atwood",
+            "name": "La Servante ecarlate",
+            "genre1": "Roman",
+            "genre2": "Science-Fiction",
+            "summary": "Un nombre tres faible de femmes peut avoir des enfants et le taux de natalite a chute de façon alarmante. Le president des etats-Unis a ete assassine lors d'un coup d'Etat fondamentaliste."
+        },
+        {
+            "id": 4,
+            "picture": "/assets/HommesDePaille.jpg",
+            "author": "Michael Marshall Smith",
+            "name": "Les Hommes de paille",
+            "genre1": "Thriller",
+            "genre2": "Mystere",
+            "genre3": "Suspense",
+            "summary": "Deux hommes, armes de fusils semi-automatiques, abattent soixante-huit personnes. Avant de prendre la fuite, ils ecrivent en lettres de sang. Santa Monica, Californie, onze ans plus tard, Sarah Becker est kidnappee. Le serial killer, l'Homme Debout, a encore frappe."
+        },
+        {
+            "id": 5,
+            "picture": "/assets/Contes.jpg",
+            "author": "Horacio Quiroga",
+            "name": "Contes d'amour, de folie et de mort",
+            "genre1": "Conte",
+            "summary": ""
+        },
+        {
+            "id": 6,
+            "picture": "/assets/BirthdayGirl.png",
+            "author": "Haruki Murakami",
+            "name": "Birthday Girl",
+            "genre1": "Nouvelle",
+            "genre2": "Fiction",
+            "summary": "C'etait son anniversaire, elle avait vingt ans, il pleuvait a verse, le directeur du restaurant etait malade. Alors c'est elle, cette serveuse qui entrait dans ses vingt ans, qui etait allee porter son repas au proprietaire du restaurant. Un vieil homme solitaire que personne n'a jamais vu."
+        },
+        {
+            "picture": "/assets/test.jpg",
+            "author": "",
+            "name": "",
+            "genre1": "",
+            "id": 7,
+            "summary": ""
+        }
+    ]
 }

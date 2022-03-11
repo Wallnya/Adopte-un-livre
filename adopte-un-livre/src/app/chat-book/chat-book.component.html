@@ -1,0 +1,100 @@
+<div class="container-fluid h-50">
+    <div class="row justify-content-center h-100">
+        <div class="col-md-8 col-xl-6 chat" style="width: auto;">
+            <div class="card">
+                <div class="card-header msg_head">
+                    <div class="d-flex bd-highlight ">
+                        <div class="img_cont ">
+                            <img [src]="books[index].picture" class="rounded-circle user_img " />
+                            <span class="online_icon "></span>
+                        </div>
+                        <div class="user_info">
+                            <span>{{books[index].author}}</span>
+                            <p>{{books[index].name}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body msg_card_body">
+                    <div class="d-flex justify-content-start mb-4">
+                        <div class="img_cont_msg">
+                            <img [src]="books[index].picture" class="rounded-circle user_img_msg">
+                        </div>
+                        <div class="msg_cotainer">
+                            Tu savais que mon genre c'etait {{books[index].genre1}} ?
+                            <span class="msg_time">8:40 AM, Today</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end mb-4">
+                        <div class="msg_cotainer_send">
+                            Ahah j'avoue que j'avais oublie!
+                            <span class="msg_time_send">8:55 AM, Today</span>
+                        </div>
+                        <div class="img_cont_msg">
+                            <img src="https://therichpost.com/wp-content/uploads/2020/06/avatar2.png" class="rounded-circle user_img_msg">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-start mb-4" *ngIf="books[index].genre2">
+                        <div class="img_cont_msg">
+                            <img [src]="books[index].picture" class="rounded-circle user_img_msg">
+                        </div>
+                        <div class="msg_cotainer">
+                            Mais c'est pas la seule chose que je suis, j'ai aussi comme genre {{books[index].genre2}}
+                            <div *ngIf="books[index].genre3 ">Et aussi {{books[index].genre3}}</div>
+                            <span class="msg_time">9:00 AM, Today</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end mb-4" *ngIf="books[index].genre2">
+                        <div class="msg_cotainer_send">
+                            Trop bien !
+                            <span class="msg_time_send">9:05 AM, Today</span>
+                        </div>
+                        <div class="img_cont_msg">
+                            <img src="https://therichpost.com/wp-content/uploads/2020/06/avatar2.png" class="rounded-circle user_img_msg">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-start mb-4" *ngIf="books[index].summary">
+                        <div class="img_cont_msg">
+                            <img [src]="books[index].picture" class="rounded-circle user_img_msg">
+                        </div>
+                        <div class="msg_cotainer">
+                            Et sinon, mon resume ressemble a ca :
+                            <span class="msg_time">9:07 AM, Today</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-start mb-4" *ngIf="books[index].summary">
+                        <div class="img_cont_msg">
+                            <img [src]="books[index].picture" class="rounded-circle user_img_msg">
+                        </div>
+                        <div class="msg_cotainer">
+                            {{books[index].summary}}
+                            <span class="msg_time">9:07 AM, Today</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end mb-4" *ngIf="books[index].summary">
+                        <div class="msg_cotainer_send">
+                            Waw! Merci beaucoup!
+                            <span class="msg_time_send">9:10 AM, Today</span>
+                        </div>
+                        <div class="img_cont_msg">
+                            <img src="https://therichpost.com/wp-content/uploads/2020/06/avatar2.png" class="rounded-circle user_img_msg">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-start mb-4" *ngIf="books[index].summary">
+                        <div class="img_cont_msg">
+                            <img [src]="books[index].picture" class="rounded-circle user_img_msg">
+                        </div>
+                        <div class="msg_cotainer">
+                            De rien!
+                            <span class="msg_time">9:12 AM, Today</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="input-group">
+                        <textarea name="" class="form-control type_msg" placeholder="Type your message..."></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -18,6 +18,8 @@ import { MenuSwipComponent } from './menu-swip/menu-swip.component';
 import { HeaderComponent } from './header/header.component';
 import { ParametersComponent } from './parameters/parameters.component';
 import { AddBookComponent } from './add-book/add-book.component';
+import { MenuChatComponent } from './menu-chat/menu-chat.component';
+import { ChatBookComponent } from './chat-book/chat-book.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { AddBookComponent } from './add-book/add-book.component';
     MenuSwipComponent,
     HeaderComponent,
     ParametersComponent,
-    AddBookComponent
+    AddBookComponent,
+    MenuChatComponent,
+    ChatBookComponent
   ],
   imports: [
     BrowserModule,
