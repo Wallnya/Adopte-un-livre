@@ -43,6 +43,7 @@ This application proposes in particular:
 
 * [Node.js](https://nodejs.org/)
 * [Angular](https://angular.io/)
+* [Bootstrap](https://getbootstrap.com/)
 
 And many others
 
@@ -54,6 +55,10 @@ And many others
 - [x] Page for adding books
     - [x] Database for adding books
     - [x] Small verification of the data entered
+- [x] Page for the 'match'
+    - [x] List all the match
+    - [x] For one match, list important information
+    - [ ] Real list of the match
 - [x] Login page
     - [ ] Database for login page
 - [ ] Multi-language Support

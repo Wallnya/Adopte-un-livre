@@ -21,8 +21,7 @@ export class AddBookComponent implements OnInit{
       author: [null, [Validators.required]],
       name: [null, [Validators.required]],
       genre1: [null, [Validators.required]],
-      genre2: [null, [Validators.required]],
-      genre3: [null, [Validators.required]]
+      summary: [null, [Validators.required]]
   });
 
   }
